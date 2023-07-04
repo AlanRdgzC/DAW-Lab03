@@ -17,6 +17,7 @@
   header{
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .navbar {
     display: flex;
@@ -29,7 +30,21 @@
   .menu {
     display: none;
   }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
 }
+
 /* Media Query for Tablets, Ipads */
 @media (min-width: 768px) and (max-width: 1024px) {
     * {
