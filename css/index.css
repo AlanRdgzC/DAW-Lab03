@@ -103,6 +103,25 @@
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: space-evenly;
+      align-content: center;
+    }
+
+    .fas{
+      text-align: center;
+    }
+
+    h2{
+      text-align: center;
+    }
+
+    .product{
+      margin-top: 20px;
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
     }
 
     footer{
