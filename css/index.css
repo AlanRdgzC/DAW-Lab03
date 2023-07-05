@@ -79,20 +79,37 @@
     
     .logo > img {
       width: 50px;
+      margin-left: 340px;
+    }
+
+    h1{
+      margin-left: 500px;
     }
 
     header {
       display: flex;
-      justify-content: space-evenly;
+      flex-direction: row;
+      justify-content: flex-start;
+
     }
 
     .navbar {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: flex-end;
+      
       background-color: gray; 
+      
     }
+
+    .menu{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    
 
     .hamburger{
       display: none;
@@ -127,11 +144,17 @@
     footer{
       display: flex;
       flex-direction: row;
-      
+      justify-content: space-evenly;
     }
 
     .social{
       display: flex;
-      
     }
+    
+    .social_icon{
+      display: flex;
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+    
   }
