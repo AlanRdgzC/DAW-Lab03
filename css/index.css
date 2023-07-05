@@ -17,7 +17,8 @@
   header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
   }
   .navbar {
     display: flex;
@@ -25,22 +26,58 @@
     flex-wrap: nowrap;
     justify-content: flex-end;
     background-color: gray;
+    margin-bottom: 5px;
   }
 
   .menu {
     display: none;
   }
 
+  .hamburger{
+    color: white;
+  }
+
   main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+
+  .fas{
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .product{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-style: ridge;
+    border-color: gray;
+    border-width: 1px;
   }
 
   footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .social{
+    display: flex;
+  }
+  
+  .social_icon{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
 }
